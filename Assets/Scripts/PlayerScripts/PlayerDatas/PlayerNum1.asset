@@ -21,6 +21,6 @@ MonoBehaviour:
   MaxDashVelocity: 60
   DashAcceleration: 60
   DashAtkForce: {x: 1000, y: 1000}
-  JumpPower: 2500
+  JumpPower: 1000
   SpinTimeOnce: 0.8
   SpinAtkForce: {x: 4500, y: 3000}
