@@ -1,1 +1,3 @@
-# GoldFishColiseum
+# タイトル：『金魚コロシアム』
+- チーム制作
+- 開発環境：Unity
