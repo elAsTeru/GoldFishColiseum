@@ -10,16 +10,16 @@ public class OkeMove : MonoBehaviour
 
     private int XZRand;
     Vector3 Point;
-    float MaxX = 116.0f;
-    float MinX = -117.0f;
-    float MaxZ = 53.0f;
-    float MinZ = -56.0f;
+    [SerializeField]float MaxX = 20.0f;
+    [SerializeField]float MinX = -20.0f;
+    [SerializeField] float MaxZ = 7.2f;
+    [SerializeField] float MinZ = -7.2f;
 
     // Start is called before the first frame update
     void Start()
     {
         //移動地点の初期化(Y座標は固定)
-        Point = new Vector3(0.0f, 17.12f, 0.0f);
+        Point = new Vector3(0.0f, this.transform.position.y, 0.0f);
 
         //移動地点をランダムに取得
         RandomPoint();
