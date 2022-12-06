@@ -62,14 +62,4 @@ public partial class Player
             }
         }
     }
-
-    // ˆÚ“®•ûŒü‚ğŒü‚©‚¹‚éŠÖ”//Face...Œü‚­
-    private void FaceFront()
-    {
-        if(rb.velocity != Vector3.zero)
-        {
-            transform.rotation = Quaternion.LookRotation(rb.velocity);
-            Debug.DrawRay(this.transform.position, rb.velocity / 2, Color.blue);
-        }
-    }
 }

@@ -15,8 +15,8 @@ MonoBehaviour:
   Name: Player1
   Stamina: 100
   StaminaSubValue: 0.5
-  MaxNormalVelocity: 15
-  NormalAcceleration: 15
+  MaxNormalVelocity: 5
+  NormalAcceleration: 5
   DashTimeOnce: 0.5
   MaxDashVelocity: 30
   DashAcceleration: 30

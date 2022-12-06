@@ -16,7 +16,7 @@ public partial class Player
             // 移動処理
             owner.MoveProc(owner.inputValue, owner.velocity, owner.maxNormalVel, owner.normalACC);
             // 移動方向を向く処理
-            owner.FaceFront();
+            //owner.FaceFront();
 
             //移動状態はスタミナが回復する
             GameObject StaminaUp = GameObject.Find("PlayerStamina");
@@ -26,6 +26,7 @@ public partial class Player
             if (owner.inputValue.x == 0 && owner.inputValue.y == 0)
             {
                 owner.ChangeState(idol);
+                
             }
             // ダッシュ状態に遷移
             else if ((Input.GetKeyDown(owner.dashKey) || Input.GetButtonDown("Dash" + owner.playerNumber)) && owner.isGround && owner.stamina > owner.subStamina)
